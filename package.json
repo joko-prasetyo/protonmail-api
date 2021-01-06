@@ -19,7 +19,13 @@
     "prepublishOnly": "npm run test"
   },
   "dependencies": {
-    "puppeteer": "^5.0.0"
+    "cheerio": "^1.0.0-rc.5",
+    "generate-password": "^1.5.1",
+    "ghost-cursor": "^1.0.6",
+    "puppeteer": "^5.5.0",
+    "random-useragent": "^0.5.0",
+    "request": "^2.88.2",
+    "unique-names-generator": "^4.3.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -27,7 +33,6 @@
     "chai": "^4.2.0",
     "docdash": "github:clenemt/docdash",
     "dotenv": "^8.2.0",
-    "eslint-config-jk": "^1.6.0",
     "jsdoc": "^3.6.4",
     "mocha": "^8.0.1",
     "npm-run-all": "^4.1.5",
